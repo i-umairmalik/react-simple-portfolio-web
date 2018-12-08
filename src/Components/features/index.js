@@ -8,7 +8,8 @@ const Featured = () => {
             
             <div className="artist_name">
                 <div className="wrapper">
-                        Quratulain bloach
+                    Ariana Grande
+ 
                 </div>
             </div>
 
