@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { Element } from 'react-scroll';
-import './resources/styles.css';
+import React, { Component } from "react";
+import { Element } from "react-scroll";
+import "./resources/styles.css";
 
 import Header from "./Components/Header-Footer/Header";
-import Featured from './Components/features';
+import Featured from "./Components/features";
 import VenueInfo from "./Components/Info";
 import HighLights from "./Components/HighLights";
 import Pricing from "./Components/Pricing";
@@ -13,36 +13,29 @@ import Footer from "./Components/Header-Footer/Footer";
 class App extends Component {
   render() {
     return (
-     <div style={{height:"1000px", backgroundColor:"cornflowerblue"}}>
+      <div style={{ height: "1000px", backgroundColor: "cornflowerblue" }}>
         <Element name="event">
-          <Header/>
+          <Header />
         </Element>
-       
         <Element name="featured">
-          <Featured/>
+          <Featured />
         </Element>
         <Element name="venue">
-        <VenueInfo/>
+          <VenueInfo />
         </Element>
-
-
-       
-       
         <Element name="highlights">
-          <HighLights/>
+          <HighLights />
         </Element>
-        
+
         <Element name="pricing">
-          <Pricing/>
+          <Pricing />
         </Element>
         <Element name="location">
-         <Location/>
+          <Location />
         </Element>
-        
-        
-        
-        <Footer/>
-     </div>
+
+        <Footer />
+      </div>
     );
   }
 }
